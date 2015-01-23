@@ -18,3 +18,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'spring', group: :development
 
 gem 'underscore-rails'
+
+gem "chromedriver-helper", "0.0.6"
+
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0.0.beta'
+  gem 'capybara'
+end
